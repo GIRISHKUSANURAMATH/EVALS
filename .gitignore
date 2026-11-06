@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local data and secrets
+.env
+.env.*
+!.env.example
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+benchmarks/data/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+docs/e2e_exports/

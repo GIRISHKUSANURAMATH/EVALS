@@ -1,0 +1,26 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    environment:
+      EVALS_DATABASE_URL: sqlite:////app/backend/data/evals.db
+      EVALS_CORS_ORIGINS: '["http://localhost:8080"]'
+      EVALS_ADMIN_API_KEY: ${EVALS_ADMIN_API_KEY:-}
+    volumes:
+      - evals-data:/app/backend/data
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "8080:80"
+
+volumes:
+  evals-data:

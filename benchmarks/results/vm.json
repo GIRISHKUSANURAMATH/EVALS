@@ -1,0 +1,237 @@
+{
+  "generated_at": "2026-11-06T08:25:03.871627+00:00",
+  "hardware": {
+    "hostname": "vm",
+    "platform": "Linux-6.18.44-fc-v242-x86_64-with-glibc2.39",
+    "python": "3.11.18",
+    "processor": "x86_64",
+    "logical_cpus": 2,
+    "physical_cpus": 2,
+    "cpu_mhz": 2100,
+    "ram_gb": 7.8
+  },
+  "runs": [
+    {
+      "variant": "templated",
+      "records": 858,
+      "file_mb": 0.5,
+      "traces": 780,
+      "unique_traces": 47,
+      "examples_generated": 119,
+      "similarity_backend": "tfidf-char",
+      "stage_ms": {
+        "parse_normalize": 23.4,
+        "redaction": 109.5,
+        "reconstruction": 4.1,
+        "failure_detection": 18.3,
+        "deduplication": 21.0,
+        "clustering": 66.4
+      },
+      "full_pipeline_ms": 693.7,
+      "dataset_generation_ms": 69.7,
+      "ingestion_throughput_records_per_s": 1236.9,
+      "parse_throughput_records_per_s": 36608.1,
+      "rss_mb": {
+        "start": 161.0,
+        "after_stages": 169.7,
+        "end": 229.6
+      },
+      "job_stage_timings_ms": {
+        "validation": 0.0,
+        "parsing": 22.42,
+        "redaction": 109.44,
+        "normalization": 0.1,
+        "reconstruction": 5.35,
+        "failure_detection": 17.34,
+        "deduplication": 57.22,
+        "persistence": 220.4,
+        "clustering": 240.48
+      }
+    },
+    {
+      "variant": "templated",
+      "records": 4862,
+      "file_mb": 2.86,
+      "traces": 4420,
+      "unique_traces": 47,
+      "examples_generated": 140,
+      "similarity_backend": "tfidf-char",
+      "stage_ms": {
+        "parse_normalize": 85.7,
+        "redaction": 618.2,
+        "reconstruction": 105.7,
+        "failure_detection": 104.3,
+        "deduplication": 49.2,
+        "clustering": 53.9
+      },
+      "full_pipeline_ms": 3024.9,
+      "dataset_generation_ms": 549.9,
+      "ingestion_throughput_records_per_s": 1607.3,
+      "parse_throughput_records_per_s": 56723.7,
+      "rss_mb": {
+        "start": 238.5,
+        "after_stages": 248.7,
+        "end": 308.3
+      },
+      "job_stage_timings_ms": {
+        "validation": 0.0,
+        "parsing": 88.63,
+        "redaction": 614.87,
+        "normalization": 0.43,
+        "reconstruction": 123.93,
+        "failure_detection": 110.25,
+        "deduplication": 90.75,
+        "persistence": 1301.91,
+        "clustering": 606.38
+      }
+    },
+    {
+      "variant": "templated",
+      "records": 20020,
+      "file_mb": 11.77,
+      "traces": 18200,
+      "unique_traces": 47,
+      "examples_generated": 145,
+      "similarity_backend": "tfidf-char",
+      "stage_ms": {
+        "parse_normalize": 531.0,
+        "redaction": 2533.4,
+        "reconstruction": 245.5,
+        "failure_detection": 632.6,
+        "deduplication": 180.4,
+        "clustering": 55.0
+      },
+      "full_pipeline_ms": 13859.1,
+      "dataset_generation_ms": 1917.3,
+      "ingestion_throughput_records_per_s": 1444.5,
+      "parse_throughput_records_per_s": 37699.1,
+      "rss_mb": {
+        "start": 343.6,
+        "after_stages": 359.3,
+        "end": 582.0
+      },
+      "job_stage_timings_ms": {
+        "validation": 0.0,
+        "parsing": 623.77,
+        "redaction": 2465.21,
+        "normalization": 2.14,
+        "reconstruction": 354.67,
+        "failure_detection": 474.12,
+        "deduplication": 256.01,
+        "persistence": 6652.16,
+        "clustering": 2677.15
+      }
+    },
+    {
+      "variant": "diverse",
+      "records": 858,
+      "file_mb": 0.53,
+      "traces": 780,
+      "unique_traces": 753,
+      "examples_generated": 757,
+      "similarity_backend": "tfidf-char",
+      "stage_ms": {
+        "parse_normalize": 13.9,
+        "redaction": 110.4,
+        "reconstruction": 5.2,
+        "failure_detection": 23.4,
+        "deduplication": 90.8,
+        "clustering": 185.3
+      },
+      "full_pipeline_ms": 771.6,
+      "dataset_generation_ms": 208.5,
+      "ingestion_throughput_records_per_s": 1111.9,
+      "parse_throughput_records_per_s": 61594.1,
+      "rss_mb": {
+        "start": 582.0,
+        "after_stages": 580.9,
+        "end": 581.2
+      },
+      "job_stage_timings_ms": {
+        "validation": 0.0,
+        "parsing": 15.79,
+        "redaction": 110.33,
+        "normalization": 0.1,
+        "reconstruction": 6.83,
+        "failure_detection": 23.92,
+        "deduplication": 134.79,
+        "persistence": 239.83,
+        "clustering": 221.91
+      }
+    },
+    {
+      "variant": "diverse",
+      "records": 4862,
+      "file_mb": 3.01,
+      "traces": 4420,
+      "unique_traces": 4206,
+      "examples_generated": 4223,
+      "similarity_backend": "tfidf-char",
+      "stage_ms": {
+        "parse_normalize": 98.3,
+        "redaction": 629.4,
+        "reconstruction": 273.2,
+        "failure_detection": 236.3,
+        "deduplication": 1004.9,
+        "clustering": 898.3
+      },
+      "full_pipeline_ms": 5290.3,
+      "dataset_generation_ms": 1513.4,
+      "ingestion_throughput_records_per_s": 919.0,
+      "parse_throughput_records_per_s": 49449.2,
+      "rss_mb": {
+        "start": 581.2,
+        "after_stages": 594.0,
+        "end": 594.0
+      },
+      "job_stage_timings_ms": {
+        "validation": 0.0,
+        "parsing": 91.73,
+        "redaction": 639.29,
+        "normalization": 0.57,
+        "reconstruction": 167.68,
+        "failure_detection": 150.51,
+        "deduplication": 820.89,
+        "persistence": 2077.27,
+        "clustering": 1246.76
+      }
+    },
+    {
+      "variant": "diverse",
+      "records": 10010,
+      "file_mb": 6.2,
+      "traces": 9100,
+      "unique_traces": 8587,
+      "examples_generated": 8627,
+      "similarity_backend": "tfidf-char",
+      "stage_ms": {
+        "parse_normalize": 213.1,
+        "redaction": 1416.8,
+        "reconstruction": 298.2,
+        "failure_detection": 453.6,
+        "deduplication": 3476.5,
+        "clustering": 1060.9
+      },
+      "full_pipeline_ms": 11458.3,
+      "dataset_generation_ms": 4243.3,
+      "ingestion_throughput_records_per_s": 873.6,
+      "parse_throughput_records_per_s": 46980.7,
+      "rss_mb": {
+        "start": 590.0,
+        "after_stages": 620.5,
+        "end": 689.7
+      },
+      "job_stage_timings_ms": {
+        "validation": 0.0,
+        "parsing": 212.74,
+        "redaction": 1418.9,
+        "normalization": 0.97,
+        "reconstruction": 230.18,
+        "failure_detection": 329.63,
+        "deduplication": 2686.6,
+        "persistence": 3993.07,
+        "clustering": 2359.52
+      }
+    }
+  ]
+}

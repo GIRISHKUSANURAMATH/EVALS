@@ -1,0 +1,372 @@
+[
+  {
+    "id": "chatcmpl-oa_00261",
+    "created": 1788285172,
+    "request": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful customer-support assistant for Acme Cloud. Be concise and accurate."
+        },
+        {
+          "role": "user",
+          "content": "How do I reset my password?"
+        }
+      ]
+    },
+    "response": {
+      "model": "gpt-4o-mini",
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "Go to Settings > Security and click 'Reset password'. A reset link will be emailed to you."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 30,
+        "total_tokens": 80
+      }
+    },
+    "latency_ms": 587
+  },
+  {
+    "id": "chatcmpl-oa_00262",
+    "created": 1788285394,
+    "request": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful customer-support assistant for Acme Cloud. Be concise and accurate."
+        },
+        {
+          "role": "user",
+          "content": "What are your support hours?"
+        }
+      ]
+    },
+    "response": {
+      "model": "gpt-4o-mini",
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "Our support team is available 24/7 via chat and Monday to Friday 9am-6pm by phone."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 30,
+        "total_tokens": 80
+      }
+    },
+    "latency_ms": 1031
+  },
+  {
+    "id": "chatcmpl-oa_00263",
+    "created": 1788285521,
+    "request": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful customer-support assistant for Acme Cloud. Be concise and accurate."
+        },
+        {
+          "role": "user",
+          "content": "Can I upgrade my plan mid-cycle?"
+        }
+      ]
+    },
+    "response": {
+      "model": "gpt-4o-mini",
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "Yes. Upgrades take effect immediately and you are charged a prorated amount."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 30,
+        "total_tokens": 80
+      }
+    },
+    "latency_ms": 282
+  },
+  {
+    "id": "chatcmpl-oa_00264",
+    "created": 1788285594,
+    "request": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful customer-support assistant for Acme Cloud. Be concise and accurate."
+        },
+        {
+          "role": "user",
+          "content": "How do I export my billing history?"
+        }
+      ]
+    },
+    "response": {
+      "model": "gpt-4o-mini",
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "Open Billing > Invoices and click 'Export CSV' in the top right."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 30,
+        "total_tokens": 80
+      }
+    },
+    "latency_ms": 559
+  },
+  {
+    "id": "chatcmpl-oa_00265",
+    "created": 1788285627,
+    "request": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful customer-support assistant for Acme Cloud. Be concise and accurate."
+        },
+        {
+          "role": "user",
+          "content": "Why was my card declined?"
+        }
+      ]
+    },
+    "response": {
+      "model": "gpt-4o-mini",
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "Card declines usually come from the issuing bank. Please verify the billing address and try again."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 30,
+        "total_tokens": 80
+      }
+    },
+    "latency_ms": 912
+  },
+  {
+    "id": "chatcmpl-oa_00266",
+    "created": 1788285742,
+    "request": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful customer-support assistant for Acme Cloud. Be concise and accurate."
+        },
+        {
+          "role": "user",
+          "content": "How do I enable two-factor authentication?"
+        }
+      ]
+    },
+    "response": {
+      "model": "gpt-4o-mini",
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "Go to Settings > Security > Two-factor and scan the QR code with an authenticator app."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 30,
+        "total_tokens": 80
+      }
+    },
+    "latency_ms": 928
+  },
+  {
+    "id": "chatcmpl-oa_00267",
+    "created": 1788285776,
+    "request": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful customer-support assistant for Acme Cloud. Be concise and accurate."
+        },
+        {
+          "role": "user",
+          "content": "What regions do you support?"
+        }
+      ]
+    },
+    "response": {
+      "model": "gpt-4o-mini",
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "We currently operate data centers in us-east, eu-west and ap-south."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 30,
+        "total_tokens": 80
+      }
+    },
+    "latency_ms": 573
+  },
+  {
+    "id": "chatcmpl-oa_00268",
+    "created": 1788285877,
+    "request": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful customer-support assistant for Acme Cloud. Be concise and accurate."
+        },
+        {
+          "role": "user",
+          "content": "How can I delete my account?"
+        }
+      ]
+    },
+    "response": {
+      "model": "gpt-4o-mini",
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "Go to Settings > Account > Delete account. Deletion is permanent after 30 days."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 30,
+        "total_tokens": 80
+      }
+    },
+    "latency_ms": 706
+  },
+  {
+    "id": "chatcmpl-oa_00269",
+    "created": 1788285902,
+    "request": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful customer-support assistant for Acme Cloud. Be concise and accurate."
+        },
+        {
+          "role": "user",
+          "content": "Does the API support webhooks?"
+        }
+      ]
+    },
+    "response": {
+      "model": "gpt-4o-mini",
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "Yes, webhooks can be configured under Developer > Webhooks for 14 event types."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 30,
+        "total_tokens": 80
+      }
+    },
+    "latency_ms": 1150
+  },
+  {
+    "id": "chatcmpl-oa_00270",
+    "created": 1788286051,
+    "request": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful customer-support assistant for Acme Cloud. Be concise and accurate."
+        },
+        {
+          "role": "user",
+          "content": "How do I add a team member?"
+        }
+      ]
+    },
+    "response": {
+      "model": "gpt-4o-mini",
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "Open Team > Members and click 'Invite'. They receive an email invitation."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 30,
+        "total_tokens": 80
+      }
+    },
+    "latency_ms": 1066
+  },
+  {
+    "id": "chatcmpl-err",
+    "created": 1788349599,
+    "request": {
+      "model": "gpt-4o",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Translate our ToS into French"
+        }
+      ]
+    },
+    "response": {
+      "error": {
+        "type": "server_error",
+        "message": "The server had an error processing your request."
+      }
+    },
+    "status_code": 500
+  }
+]

@@ -1,0 +1,46 @@
+# Docker build context exclusions for EVALS.
+# The build context is the project root (see docker-compose.yml). Only source code,
+# dependency manifests, sample data and the nginx config are needed inside images.
+
+# Version control and CI metadata
+.git
+.github
+
+# Python virtual environments, caches and test artifacts
+**/.venv
+**/venv
+**/__pycache__
+**/*.py[cod]
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/.coverage
+**/coverage.xml
+**/htmlcov
+
+# Node dependencies and build output (rebuilt inside the image by npm ci / npm run build)
+**/node_modules
+frontend/dist
+frontend/coverage
+
+# Secrets and local configuration (.env.example is kept)
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local databases and generated data
+backend/data
+**/*.db
+**/*.db-wal
+**/*.db-shm
+**/*.sqlite
+**/*.sqlite3
+benchmarks/data
+docs/e2e_exports
+
+# Docs, screenshots and editor/OS files are not needed in images
+docs/screenshots
+.vscode
+.idea
+**/.DS_Store
+**/Thumbs.db
