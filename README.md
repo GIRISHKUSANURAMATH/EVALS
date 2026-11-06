@@ -271,7 +271,7 @@ Exported JSONL record (one per line):
 
 ```powershell
 cd D:\EVALS\backend; .\.venv\Scripts\Activate.ps1
-pytest --cov=app --cov-report=term          # 157 tests (1 is POSIX-only and skipped on Windows)
+pytest --cov=app --cov-report=term          # 157 collected; 156 pass and 1 POSIX-only test is skipped on Windows
 ruff check . ; ruff format --check . ; mypy app
 
 cd D:\EVALS\frontend
